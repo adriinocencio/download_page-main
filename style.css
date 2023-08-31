@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app--container {
+    
+}
