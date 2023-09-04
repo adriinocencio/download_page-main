@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     border: 0;
     padding: 0;
@@ -10,15 +10,45 @@ a {
     text-decoration: none;
 }
 
+nav {
+    padding: 5px 0 5px 15px;
+    background-color: #62b3ff;
+    color: white;
+    font-size: large;
+}
+
 main {
-    margin-left: 15px;
     margin-top: 25px;
 }
 
-
-.app--container {
-
+.card--apps {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px 20px 35px 20px;
+    margin: 25px 50px 50px 25px;
 }
 
-/*/* https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn2.f-cdn.com%2Fcontestentries%2F1426335%2F30430108%2F5bb92217401a6_thumb900.jpg&tbnid=HC_3_wihViq0WM&vet=12ahUKEwiGiaOzsIeBAxXUNrkGHet9D9sQMygOegQIARBu..i&imgrefurl=https%3A%2F%2Fwww.freelancer.cn%2Fcontest%2Fdesign-a-file-download-page-template-that-matches-our-theme-1426335&docid=JUgq9KlA3kN5vM&w=900&h=1786&q=download%20files%20page%20design&ved=2ahUKEwiGiaOzsIeBAxXUNrkGHet9D9sQMygOegQIARBu
-https://iconduck.com/icons/11305/node-red
+.app--container {
+    display: flex;
+}
+
+.app--img--container {
+    margin-right: 15px;
+}
+
+.img-app {
+    height: 55px;
+    width: 55px;
+}
+
+.download-btn {
+    padding: 10px;
+    background-color: #62b3ff;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    font-size: medium;
+}
